@@ -9,13 +9,13 @@ Example
 Suppose the following inputs are given to the program:
 3,5
 Then, the output of the program should be:
-[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]] 
+[[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 
 Hints:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form.
 '''
 
-input_str = input("Enter matrix row and column value seperated by comma: ")
+input_str = input("Enter matrix row and column value separated by comma: ")
 dimensions = [int(x) for x in input_str.split(',')]
 rowNum = dimensions[0]
 colNum = dimensions[1]
