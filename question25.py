@@ -19,8 +19,8 @@ class Person:
 
 
 jeffery = Person("Jeffery")
-print("%s name is %s" %(Person.name, jeffery.name))
+print("%s name is %s" % (Person.name, jeffery.name))
 
 nico = Person()
 nico.name = "Nico"
-print("%s name is %s" %(Person.name, nico.name))
+print("%s name is %s" % (Person.name, nico.name))
